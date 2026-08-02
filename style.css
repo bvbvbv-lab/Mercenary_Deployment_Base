@@ -111,3 +111,68 @@ button:hover{
 transform:translateY(-4px);
 
 }
+
+.character-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(260px,1fr));
+
+gap:35px;
+
+margin-top:45px;
+
+}
+
+.character-card{
+
+background:#1b1b1b;
+
+border-radius:18px;
+
+overflow:hidden;
+
+transition:.3s;
+
+}
+
+.character-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.character-card img{
+
+width:100%;
+
+display:block;
+
+}
+
+.character-card h3{
+
+padding:18px 20px 8px;
+
+}
+
+.character-card p{
+
+padding:0 20px;
+
+opacity:.75;
+
+}
+
+.character-card a{
+
+display:block;
+
+padding:20px;
+
+color:#8ac7ff;
+
+font-weight:bold;
+
+}

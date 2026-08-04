@@ -175,9 +175,8 @@ color:#8ac7ff;
 
 font-weight:bold;
 
-}
-
 .logo{
     height:80px;
     width:auto;
+    display:block;
 }

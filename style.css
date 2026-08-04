@@ -176,3 +176,9 @@ color:#8ac7ff;
 font-weight:bold;
 
 }
+
+.logo{
+    height:48px;
+    width:auto;
+    object-fit:contain;
+}
